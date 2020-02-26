@@ -42,3 +42,5 @@
     keepBackup = false
 [include]
     path = local
+[user]
+    useConfigOnly = true
