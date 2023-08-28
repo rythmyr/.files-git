@@ -25,13 +25,13 @@
     co = checkout
     d = diff
     dh = diff HEAD --
-    dm = diff origin/master --
+    dm = diff origin/main --
     du = diff @{u} --
     exec = "!exec "
     f = fetch --tags --all --prune --force
     l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     lce = "config -e"
-    mm = merge origin/master
+    mm = merge origin/main
     mu = merge @{u}
     p = push -u origin HEAD
     pf = push -u origin HEAD --force-with-lease
